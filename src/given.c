@@ -34,7 +34,7 @@ typedef struct {
     int             n;        /* how many threads have to arrive */
     int             count;    /* how many have arrived this round */
     unsigned long   gen;      /* which round this barrier is on   */
-} bar_t;
+}bar_t;
 
 static void *create(int nthreads)
 {
